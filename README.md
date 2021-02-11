@@ -1,12 +1,16 @@
 # mongodb-change-streams
 
-Spike to learn more about Mongodb Change Events    
+Spike: Mongodb Change Events    
+
+IDE: Intellij IDEA Ultimate edition 
 
 
-Mondodb
+# Mondodb
 
 cd ~/dev/docker
 mongod --dbpath ./data/db --replSet "rs"
+
+# Mongo Atlas Sandbox
 
 Free tier cluster
 - 3-server replica set
