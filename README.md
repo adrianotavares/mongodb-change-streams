@@ -1,4 +1,4 @@
-# mongodb-change-streams
+# Mongodb Change Streams
 
 Spike: Mongodb Change Events    
 
@@ -26,12 +26,3 @@ Watching only updates with quantity less than 10
 mongo updateItems.js
 mongo watchItemsUpdateQuantity.js
 ```
-
-### Next steps
-
-#### Mongo Atlas Sandbox
-
-Free tier cluster
-- 3-server replica set
-- 512 MB storage
-- never expire
