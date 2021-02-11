@@ -4,24 +4,27 @@ Spike: Mongodb Change Events
 
 IDE: Intellij IDEA Ultimate edition 
 
-## Setup
+### Setup
 
-Install Mondodb
+- Install Mondodb 
+- Starting with replicas
 
 cd ~/dev/docker
 mongod --dbpath ./data/db --replSet "rs"
 
+### Running:
 
-## Mongo Atlas Sandbox
+To watch all events
+* mongo createItems.js
+* mongo watchItemsAll.js
+  
+To watch only updates with quantity less than 10 
+* mongo updateItems.js
+* mongo watchItemsUpdateQuantity.js
+
+### Mongo Atlas Sandbox
 
 Free tier cluster
 - 3-server replica set
 - 512 MB storage
 - never expire
-
-## Running:
-
-mongo createItems.js
-mongo watchItemsAll.js
-mongo updateItems.js
-mongo watchItemsUpdateQuantity.js
