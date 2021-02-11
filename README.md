@@ -6,18 +6,11 @@ IDE: Intellij IDEA Ultimate edition
 
 ### Setup
 
-- Install Mondodb
-
-< TO DO >  
-
-- Starting mongo with replicas
+- Install Mondodb and Mongo Shell
+- Starting a local mongo with replicas
 
 cd ~/dev/docker
 mongod --dbpath ./data/db --replSet "rs"
-
-- Install Mongo Shell
-
-< TO DO >
 
 ### Running:
 
