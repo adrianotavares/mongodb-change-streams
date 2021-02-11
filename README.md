@@ -9,20 +9,27 @@ IDE: Intellij IDEA Ultimate edition
 - Install Mondodb and Mongo Shell
 - Starting a local mongo with replicas
 
+```
 cd ~/dev/docker
 mongod --dbpath ./data/db --replSet "rs"
-
+```
 ### Running:
 
 Watching all events
-* mongo createItems.js
-* mongo watchItemsAll.js
-  
-Watching only updates with quantity less than 10 
-* mongo updateItems.js
-* mongo watchItemsUpdateQuantity.js
+```
+mongo createItems.js
+mongo watchItemsAll.js 
+```
 
-### Mongo Atlas Sandbox
+Watching only updates with quantity less than 10 
+```
+mongo updateItems.js
+mongo watchItemsUpdateQuantity.js
+```
+
+### Next steps
+
+#### Mongo Atlas Sandbox
 
 Free tier cluster
 - 3-server replica set
