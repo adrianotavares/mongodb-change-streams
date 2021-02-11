@@ -14,11 +14,11 @@ mongod --dbpath ./data/db --replSet "rs"
 
 ### Running:
 
-To watch all events
+Watching all events
 * mongo createItems.js
 * mongo watchItemsAll.js
   
-To watch only updates with quantity less than 10 
+Watching only updates with quantity less than 10 
 * mongo updateItems.js
 * mongo watchItemsUpdateQuantity.js
 
